@@ -24,15 +24,15 @@ Returns: ['dyoll', 'eimaj'];
 
 const getNames = (arr) => {
   // Solution code here...
-  let namesArr = [];
+  let namesArry = [];
   arr.map(value => {
     let str = value.name.split('');
     let rev = str.reverse();
     let join = rev.join('');
-    namesArr.push(join);
-    return namesArr;
+    namesArry.push(join);
+    return namesArry;
   });
-  return namesArr;
+  return namesArry;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -103,6 +103,7 @@ const setStatusAsAuthor = (people) => {
   people.map((element) => (elelement["isAuthor"] = true));
 
 };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
 
